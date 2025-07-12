@@ -262,3 +262,39 @@ body {
 .contact-form button:hover {
   background-color: #3547d4;
 }
+
+.logo-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: 800;
+  color: #4a60ff;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #888;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #999;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover {
+  color: #4a60ff;
+}
